@@ -1,0 +1,25 @@
+body {
+  font-family: 'Roboto'
+}
+
+h1 {
+  color: rgb(106, 90, 205);
+  filter: drop-shadow(.05em .05em .1em gray);
+  font-weight: 100;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+h1:hover {
+  text-shadow: 0 0 2px, 0 0 1px, .1em .1em yellow;
+  color: #ff0066;
+}
+
+section .divider {
+  margin-bottom: 30px;
+}
+
+#radio span {
+  paddig-left: 10px;;
+}
+
